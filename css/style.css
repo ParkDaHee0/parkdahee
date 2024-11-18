@@ -1900,6 +1900,10 @@ figure.dotted-bg:before {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.unslate_co--footer p {
+  word-break: keep-all;
+}
+
 .unslate_co--footer a:hover {
   color: #fff;
 }
@@ -2232,6 +2236,7 @@ span.error {
   line-height: 1.5;
   z-index: 1;
   display: inline-block;
+  word-break: keep-all;
   -webkit-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
   transform: translateX(-100%);
