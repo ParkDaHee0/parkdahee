@@ -58,6 +58,10 @@ a:hover {
   text-decoration: none !important;
 }
 
+br {
+  word-break: break-all;
+}
+
 .unslate_co--site-inner {
   margin-bottom: 400px;
   position: relative;
@@ -80,7 +84,6 @@ a:hover {
   right: 0;
   bottom: 0px;
   z-index: -1;
-  height: 400px;
 }
 
 @media (max-width: 991.98px) {
@@ -878,6 +881,7 @@ a:hover {
 .cover-v1 .subheading {
   font-size: 33px;
   color: #fff;
+  word-break: keep-all;
 }
 
 @media (max-width: 991.98px) {
